@@ -1,0 +1,28 @@
+{
+  "name": "angulartics-google-adwords-remarketing-tag",
+  "version": "0.1.0",
+  "homepage": "https://github.com/mooyoul/angulartics-google-adwords-remarketing-tag",
+  "authors": [
+    "Moo Yeol, Lee (Prescott) <mooyoul@gmail.com>"
+  ],
+  "description": "Google Adwords Remarketing Tag plugin for Angulartics",
+  "main": "./dist/angulartics-google-adwords-remarketing-tag.min.js",
+  "keywords": [
+    "angularjs",
+    "angulartics",
+    "analytics",
+    "google",
+    "adwords",
+    "remarketing",
+    "google-adwords-remarketing-tag",
+    "angulartics-plugin"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

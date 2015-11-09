@@ -1,0 +1,37 @@
+{
+  "name": "angulartics-google-adwords-remarketing-tag",
+  "version": "0.1.0",
+  "description": "Google Adwords Remarketing Tag plugin for Angulartics",
+  "main": "./lib/index.js",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "prebuild": "npm run clean",
+    "build": "mkdir -p dist && node_modules/.bin/uglifyjs lib/angulartics-google-adwords-remarketing-tag.js --compress --source-map dist/angulartics-google-adwords-remarketing-tag.min.js.map --source-map-root .. --source-map-url ../dist/angulartics-google-adwords-remarketing-tag.min.js.map -o dist/angulartics-google-adwords-remarketing-tag.min.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mooyoul/angulartics-google-adwords-remarketing-tag.git"
+  },
+  "keywords": [
+    "angularjs",
+    "angulartics",
+    "analytics",
+    "google",
+    "adwords",
+    "remarketing",
+    "google-adwords-remarketing-tag",
+    "angulartics-plugin"
+  ],
+  "author": "Moo Yeol, Lee (Prescott) <mooyoul@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mooyoul/angulartics-google-adwords-remarketing-tag/issues"
+  },
+  "homepage": "https://github.com/mooyoul/angulartics-google-adwords-remarketing-tag#readme",
+  "devDependencies": {
+    "uglify-js": "^2.4.24"
+  },
+  "dependencies": {
+    "angulartics": "^0.20.0"
+  }
+}
