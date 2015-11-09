@@ -58,18 +58,18 @@ And it does not supports Multiple pageviews.
 If you want to track PageView correctly, Please consider using async version of Google Adwords Remarketing Tag Script:
 
 ```html
-    <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
 ```
 
 ## Changes in the Google Adwords Remarketing Tag snippet
 
 Please set your conversion id by setting `_gart_conversion_id` on window object:
 
-```js
-  <script type="text/javascript">
-    window._gart_conversion_id = 989712485; // Required
-  </script>
-  <script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+```html
+<script type="text/javascript">
+  window._gart_conversion_id = 989712485; // Required
+</script>
+<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
 ```
 
 Done. Open your app, browse across the different routes and check [the Audiences page in Google Adwords](https://support.google.com/adwords/answer/2454064) to see the hits.
