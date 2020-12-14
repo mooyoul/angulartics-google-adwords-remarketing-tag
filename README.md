@@ -27,7 +27,7 @@ angular.module('myApp', [
 ]);
 ```
 
-> Please note that core Angulartics doesn't export the name yet, but it will once we move it into [the new organization](http://github.com/angulartics).
+> Please note that core Angulartics doesn't export the name yet, but it will once we move it into [the new organization](https://github.com/angulartics).
 
 ### bower
 
@@ -58,7 +58,7 @@ And it does not supports Multiple pageviews.
 If you want to track PageView correctly, Please consider using async version of Google Adwords Remarketing Tag Script:
 
 ```html
-<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
 ```
 
 ## Changes in the Google Adwords Remarketing Tag snippet
@@ -69,14 +69,14 @@ Please set your conversion id by setting `_gart_conversion_id` on window object:
 <script type="text/javascript">
   window._gart_conversion_id = 989712485; // Required
 </script>
-<script type="text/javascript" src="http://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
+<script type="text/javascript" src="https://www.googleadservices.com/pagead/conversion_async.js" charset="utf-8"></script>
 ```
 
 Done. Open your app, browse across the different routes and check [the Audiences page in Google Adwords](https://support.google.com/adwords/answer/2454064) to see the hits.
 
 ## Documentation
 
-Documentation is available on the [Angulartics site](http://luisfarzati.github.io/angulartics).
+Documentation is available on the [Angulartics site](https://luisfarzati.github.io/angulartics).
 
 ## Development
 
